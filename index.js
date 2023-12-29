@@ -1,8 +1,3 @@
-//TODO: Implement a event listener for the parent box, instead of each button
-//TODO: Use a pop up window or drop down menu to display all bevarages options, observations and extras
-//TODO: Take item names and prices from a different file to keep the code organized and make it easier for the client to make modifications
-//TODO: make name and observations jump to next line once they hit a 42 character limit
-
 //Double Burgers
 let dpCheese = 0;
 let dpCheddar = 0;
@@ -47,7 +42,7 @@ let nome; //Name of the Client
 let obs; //Observations
 
 
-function Impressao(){ // Sends the items to the printer
+function Impressao(){ //Sends the items to the printer
     
 	finalizar();
 	
