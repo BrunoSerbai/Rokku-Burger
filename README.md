@@ -1,2 +1,2 @@
 # RokkuBurger
-A shopping cart for the restaurant RokkuBurger.
+A ordering system for the restaurant RokkuBurger.
