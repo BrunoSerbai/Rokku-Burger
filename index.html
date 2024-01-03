@@ -1,0 +1,169 @@
+<!DOCTYPE    html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rokku Burguer</title>
+        <link rel="icon" type="image/jpg" href="path833.svg"> 
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+	<script src="index.js" async></script>
+    </head>
+
+    <body>
+        <img id="logo" src="path625.svg" width="30%"><br>
+	
+	<label for="nome">Nome do Cliente:</label>
+	<input id="nome" type="text" style="border-radius: 5px;">
+	
+     <table style="background-color: black; margin-top:10px">
+        <tr align="center" style="background-color: #ffac28;">
+            <th width="120">Duplo</th>
+            <th width="120">Simples</th>
+            <th width="220">Lanche</th>
+            <th width="120">Preço</th>
+        </tr>
+       <tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="duploCheeseSub">&lt</button> <p id="quantDuploCheese">0</p> <button id="duploCheeseAdd">&gt</button></td>
+            <td><button id="cheeseSub"><</button> <p id="quantCheese">0</p> <button id="cheeseAdd">></button></td>
+            <td>Cheese Burguer</td>
+            <td>R$18,50</td>
+       </tr>
+       <tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="duploCheddarSub">&lt</button> <p id="quantDuploCheddar">0</p> <button id="duploCheddarAdd">&gt</button></td>
+            <td><button id="cheddarSub"><</button> <p id="quantCheddar">0</p> <button id="cheddarAdd">></button></td>
+            <td>Cheddar</td>
+            <td>R$20,50</td>
+       </tr>
+       <tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="duploVegSub">&lt</button> <p id="quantDuploVeg">0</p> <button id="duploVegAdd">&gt</button></td>
+            <td><button id="vegSub"><</button> <p id="quantVeg">0</p> <button id="vegAdd">></button></td>
+            <td>Vegetariano</td>
+            <td>R$20,50</td>
+       </tr>
+       <tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="duploChickenSub">&lt</button> <p id="quantDuploChicken">0</p> <button id="duploChickenAdd">&gt</button></td>
+            <td><button id="chickenSub"><</button> <p id="quantChicken">0</p> <button id="chickenAdd">></button></td>
+            <td>Chicken</td>
+            <td>R$20,50</td>
+       </tr>
+       <tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="duploSaladSub">&lt</button> <p id="quantDuploSalad">0</p> <button id="duploSaladAdd">&gt</button></td>
+            <td><button id="saladSub"><</button> <p id="quantSalad">0</p> <button id="saladAdd">></button></td>
+            <td>Salad</td>
+            <td>R$20,50</td>
+       </tr>
+       <tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="duploBaconSub">&lt</button> <p id="quantDuploBacon">0</p> <button id="duploBaconAdd">&gt</button></td>
+            <td><button id="baconSub"><</button> <p id="quantBacon">0</p> <button id="baconAdd">></button></td>
+            <td>Bacon</td>
+            <td>R$22,50</td>
+       </tr>
+       <tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="duploChickenBcnSub">&lt</button> <p id="quantDuploChickenBacon">0</p> <button id="duploChickenBcnAdd">&gt</button></td>
+            <td><button id="chickenBaconSub"><</button> <p id="quantChickenBacon">0</p> <button id="chickenBaconAdd">></button></td>
+            <td>Chicken Bacon</td>
+            <td>R$23,50</td>
+       </tr>
+       <tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="duploSaladBcnSub">&lt</button> <p id="quantDuploSaladBcn">0</p> <button id="duploSaladBcnAdd">&gt</button></td>
+            <td><button id="saladBaconSub"><</button> <p id="quantSaladBacon">0</p> <button id="saladBaconAdd">></button></td>
+            <td>Salad Bacon</td>
+            <td>R$24,50</td>
+       </tr>
+       <tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="duploPorkSub">&lt</button> <p id="quantDuploPork">0</p> <button id="duploPorkAdd">&gt</button></td>
+            <td><button id="porkSub"><</button> <p id="quantPork">0</p> <button id="porkAdd">></button></td>
+            <td>Pork</td>
+            <td>R$24,50</td>
+       </tr>
+       <tr align="center" style="background-color: #4f4b4a;">
+            <td><p id="">-</p> </td>
+            <td><button id="meltSub"><</button> <p id="quantMelt">0</p> <button id="meltAdd">></button></td>
+            <td>Melt Duplo</td>
+            <td>R$30,50</td>
+       </tr>
+       </table>
+       
+	   <table style="background-color: black;">
+        <tr align="center" style="background-color: #ffac28;">
+            <th width="190">Quantidade</th>
+            <th width="245">Batatas</th>
+            <th width="145">Preço</th>
+		</tr>
+		<tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="crinkleSub">&lt</button> <p id="quantCrinkle">0</p> <button id="crinkleAdd">&gt</button></td>
+            <td>Batatinha Crinkle</td>
+            <td>R$7,50</td>
+       </tr>
+		<tr align="center" style="background-color: #4f4b4a;">
+            <td><button id="rusticaSub">&lt</button> <p id="quantRustica">0</p> <button id="rusticaAdd">&gt</button></td>
+            <td>Batatinha Rustica</td>
+            <td>R$7,50</td>
+       </tr>
+      </table>		
+		
+		<table style="background-color: black;">
+        <tr align="center" style="background-color: #ffac28;">
+            <th width="190">Quantidade</th>
+            <th width="245">Bebidas</th>
+			<th width="145">Preço</th>
+		</tr>
+		<tr align="center" style="background-color: #4f4b4a;">
+			<td><button id="lata350Sub"><</button> <p id="quantlata350">0</p> <button id="lata350Add">></button></td>
+		    <td>Refrigerante 350ml</td>
+            <td>R$6,00</td>
+		</tr>
+		<tr align="center" style="background-color: #4f4b4a;">
+			<td><button id="garrafa550Sub"><</button> <p id="quantgarrafa550">0</p> <button id="garrafa550Add">></button></td>
+		    <td>Refrigerante 550ml</td>
+            <td>R$7,00</td>
+		</tr>
+		<tr align="center" style="background-color: #4f4b4a;">
+			<td><button id="garrafa600Sub"><</button> <p id="quantgarrafa600">0</p> <button id="garrafa600Add">></button></td>
+		    <td>Refrigerante 600ml</td>
+            <td>R$8,50</td>
+		</tr>
+        <tr align="center" style="background-color: #4f4b4a;">
+			<td><button id="cervejaSub"><</button> <p id="quantCerveja">0</p> <button id="cervejaAdd">></button></td>
+		    <td>Cerveja Longneck</td>
+            <td>R$9,00</td>
+		</tr>
+        </table>
+        
+    <table>
+        <tr align="center" style="background-color: #4f4b4a;">
+            <th width="190" height="50">
+            <label for=salao>Salão:</label>
+            <input type="radio" id="salao"  name="local" value="SALÃO" checked>
+            </th>
+
+            <th width="190" height="50">
+            <label for=viagem>Viagem:</label>
+		    <input type="radio" id="viagem"  name="local" value="VIAGEM">   
+            </th>
+
+            <th width="190" height="50">
+		    <label for=retirada>Retirada:</label>
+		    <input type="radio" id="retirada"  name="local" value="RETIRADA">
+            </th>
+    </table>	
+    <br>
+		
+		<label for="observaçao">Observaçao:</label><br>
+		<input id="observaçao" style="width:350px; height: 100px; border-radius: 8px;" type="text"><br>
+		 
+		<button id="reset" onclick=limpar()><a href="#logo">Cancelar Pedido</a></button>
+        <button id="final" onclick=finalizar()><a href="#total">Finalizar Pedido</a></button>
+        <button id="impress" onclick=Impressao()><a href="#logo">Imprimir Pedido</a></button>
+        <hr><br>
+		
+        <p id="total"></p>
+
+        <table>
+            <tr>
+                <label id="tableTotal"> </label>
+            </tr>
+        </table>
+        <script src="RokkuBurguer.js"></script>
+    </body>
+</html>
