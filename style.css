@@ -1,10 +1,6 @@
 /*TODO: Use flex display to align items */
 /*TODO: Change the way total is shown in the main page, but keep the looks for the print*/
 
-html{
-	/*scroll-behavior: smooth; */
-	/*scroll-padding:25px; */
-}
 
 :root{
     color: white; 
@@ -13,12 +9,13 @@ html{
 
 img{
 	padding:15px;
-	width:400px;
+    width: 45vh;
 }
 
 #total{
     display: flex; 
     justify-content: center;
+    font-family: monospace;
 }
 
 body{
@@ -27,17 +24,14 @@ body{
 }
 
 button{
-    height: 20px;
-	
+    min-height: 25px;
+    min-width: 25px;
 }
+
 
 p{
     display: inline; 
     text-align: center;
-}
-
-#total{
-    font-family: monospace;
 }
 
 table {
@@ -52,6 +46,7 @@ table {
 	margin-left: auto;
 	
 }
+
 button:hover, label:hover{
   cursor: pointer;
 }
