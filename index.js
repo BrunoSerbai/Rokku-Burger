@@ -46,6 +46,8 @@ let pedido = [];
 let nome; //Name of the Client
 let obs; //Observations
 
+//Print configurations
+let fontSize = 12; 
 
 function Impressao(){ //Sends the items to the printer
     
@@ -53,7 +55,24 @@ function Impressao(){ //Sends the items to the printer
 	
     var printWindow = window.open();
     printWindow.document.open('text/plain')
-    printWindow.document.write(`<body style="text-align: center;font-family: monospace;"><img src="path1041.svg" width="50%"><p style="font-family: monospace;"> ${pedido}<p><body>`);
+    printWindow.document.write(`
+        <html>
+            <head>
+                <style>
+
+                    body{
+                        text-align: center;
+                        font-family: monospace;
+                        font-size: ${fontSize}px;
+                    }
+
+                </style>
+            </head>
+            <body>
+                <img src="path625.svg" width="200vh">
+                <p>${pedido}</p>
+            </body>
+            </html>`);
     printWindow.focus();
     printWindow.print();
     printWindow.close();
