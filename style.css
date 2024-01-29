@@ -1,56 +1,32 @@
-/*TODO: Use flex display to align items */
-/*TODO: Change the way total is shown in the main page, but keep the looks for the print*/
+:root{ color: white; font-size: calc(15px + 0.5vw); }
 
+body{ background-color: rgb(56, 56, 56); text-align: center; }
 
-:root{
-    color: white; 
-    font-size: 23px;
-}
+img{ padding-top:10px; width: calc(300px + 8vw);; }
 
-img{
-	padding:15px;
-    width: 42vh;
-}
+table{ width:90vw; max-width: 580px; background-color: black; margin-top:10px}
 
-#total{
-    display: flex; 
-    justify-content: center;
-    font-family: monospace;
-}
+p{ display: inline;  text-align: center; }
 
-body{
-    background-color: rgb(56, 56, 56); 
-    text-align: center;
-}
+button{ min-height: calc(20px + 0.5vh); min-width: calc(20px + 0.5vw); }
 
-button{
-    min-height: 25px;
-    min-width: 25px;
-}
+button:hover, label:hover{ cursor: pointer; }
 
+a{ color: black; text-decoration: none; }
 
-p{
-    display: inline; 
-    text-align: center;
-}
+tr{ background-color: #4f4b4a;}
 
-table {
-    margin-top: 50px;
+table{
+    margin-top: 10px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#salao, #viagem, #retirada, #reset{
-	margin-right:5%;
-	margin-left: auto;
-	
-}
+#total{ display: flex; justify-content: center; font-family: monospace; }
 
-button:hover, label:hover{
-  cursor: pointer;
-}
+#salao, #viagem, #retirada, #reset{ margin-right:5%; margin-left: auto; } 
 
-a {
-   color: black; 
-   text-decoration: none;}
+#observaçao{ align-self: center; width: 90vw; max-width: 350px; height:20vh; max-height: 100px; border-radius: 10px; }
+
+/*width:350px; height: 100px; border-radius: 8px;*/
