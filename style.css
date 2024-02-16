@@ -4,7 +4,7 @@ body{ background-color: rgb(56, 56, 56); text-align: center; }
 
 img{ padding-top:10px; width: calc(300px + 8vw);; }
 
-table{ width:90vw; max-width: 580px; background-color: black; margin-top:10px}
+table{ width:90vw; max-width: 700px; background-color: black; margin-top:10px}
 
 p{ display: inline;  text-align: center; }
 
