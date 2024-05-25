@@ -251,7 +251,7 @@ document.getElementById("duploVegSub").onclick = function () {
 
 document.getElementById("vegAdd").onclick = function () {
 
-    addItem(veg, 28.90);
+    addItem(veg, 21.90);
     document.getElementById("quantVeg").innerHTML = veg += 1;
 
 };
@@ -260,7 +260,7 @@ document.getElementById("vegSub").onclick = function () {
 
     if (veg > 0) {
         document.getElementById("quantVeg").innerHTML = veg -= 1;
-        total -= 28.90;
+        total -= 21.90;
 
     }
 
