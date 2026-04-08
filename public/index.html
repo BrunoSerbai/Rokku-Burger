@@ -1,0 +1,89 @@
+<!DOCTYPE    html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rokku Burguer</title>
+        <link rel="icon" type="image/jpg" href="path833.svg"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+	    <script src="index.js" async></script>
+    </head>
+
+    <body>
+        <img id="logo" src="path625.svg"><br>
+	
+	<label for="nome">Nome do Cliente:</label>
+	<input id="nome" type="text" style="border-radius: 5px;">
+	
+     <table>
+        <tr style="background-color: #ffac28;">
+            <th>Duplo</th>
+            <th>Simples</th>
+            <th>Lanche</th>
+            <th>Preço</th>
+        </tr>
+       <tr>
+            <td><button id="duploCheeseSub">&lt</button> <p id="quantDuploCheese">0</p> <button id="duploCheeseAdd">&gt</button></td>
+            <td><button id="cheeseSub">&lt</button> <p id="quantCheese">0</p> <button id="cheeseAdd">&gt</button></td>
+            <td>Cheese Burguer</td>
+            <td>R$18,90</td>
+       </tr>
+       </table>
+       
+	   <table>
+        <tr style="background-color: #ffac28;">
+            <th>Quantidade</th>
+            <th>Batatas</th>
+            <th>Preço</th>
+		</tr>
+		<tr>
+            <td><button id="crinkleSub">&lt</button> <p id="quantCrinkle">0</p> <button id="crinkleAdd">&gt</button></td>
+            <td>Batatinha Crinkle</td>
+            <td>R$7,50</td>
+       </tr>
+		<tr>
+            <td><button id="rusticaSub">&lt</button> <p id="quantRustica">0</p> <button id="rusticaAdd">&gt</button></td>
+            <td>Batatinha Rustica</td>
+            <td>R$7,50</td>
+       </tr>
+      </table>		
+		
+		
+        
+    <table>
+        <tr>
+            <th height="50">
+            <label for=salao>Salão:</label>
+            <input type="radio" id="salao" name="local" value="SALÃO" checked>
+            </th>
+
+            <th  height="50">
+            <label for=viagem>Viagem:</label>
+		    <input type="radio" id="viagem" name="local" value="VIAGEM">   
+            </th>
+
+            <th  height="50">
+		    <label for=retirada>Retirada:</label>
+		    <input type="radio" id="retirada" name="local" value="RETIRADA">
+            </th>
+    </table>	
+    <br>
+		
+		<label for="observaçao">Observaçao:</label><br>
+		<input id="observaçao" type="text"><br>
+		 
+		<button id="reset" onclick=limpar()><a href="#logo">Cancelar Pedido</a></button>
+        <button id="final" onclick=finalizar()><a href="#total">Visualizar Pedido</a></button>
+        <button id="impress" onclick=Impressao()><a href="#logo">Imprimir Pedido</a></button>
+        <hr><br>
+		
+        <p id="total"></p>
+
+        <table>
+            <tr>
+                <label id="tableTotal"> </label>
+            </tr>
+        </table>
+        
+    </body>
+</html>

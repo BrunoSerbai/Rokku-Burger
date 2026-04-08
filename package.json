@@ -1,0 +1,27 @@
+{
+  "name": "rokku-burger",
+  "version": "1.0.0",
+  "description": "A ordering system for the restaurant RokkuBurger.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoSerbai/Rokku-Burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/BrunoSerbai/Rokku-Burger/issues"
+  },
+  "homepage": "https://github.com/BrunoSerbai/Rokku-Burger#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
